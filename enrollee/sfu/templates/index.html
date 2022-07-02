@@ -6,11 +6,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="{% static 'css/menu.css' %}">
     <link rel="stylesheet" href="{% static 'css/modal.css' %}">
     <link rel="stylesheet" href="{% static 'css/media.css' %}">
-    <link rel="stylesheet" href="{% static 'static/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <title>Business Planner</title>
 </head>
 
@@ -21,7 +20,7 @@
                 <div class="nav-container">
 
                     <div class="logo">
-                        <a href="#header"><img src="img/logo.svg" alt=""></a>
+                        <a href="#header"><img src="{% static 'img/logo.svg' %}" alt=""></a>
                     </div>
                     <input class="checkbox" type="checkbox" name="" id="" />
                     <div class="hamburger-lines">
@@ -53,7 +52,7 @@
                 </p>
                 <button class="popup-open btn_header">Получить консультацию</button>
             </div>
-            <img src="img/header_img.png" alt="">
+            <img src="{% static 'img/header_img.png' %}" alt="">
         </div>
     </section>
     <section id="services">
@@ -61,7 +60,7 @@
             <h1>Наши услуги</h1>
             <div class="ser_content">
                 <div class="card">
-                    <img style="margin-top: 31px;" class="ser_one" src="img/ser_one.png" alt="">
+                    <img style="margin-top: 31px;" class="ser_one" src="{% static 'img/ser_one.png' %}" alt="">
                     <div class="card_content">
                         <div>
                             <h3 class="h3">Маркетинговые исследования</h3>
@@ -76,7 +75,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img style="margin-top: 25px;" class="ser_two" src="img/ser_two.png" alt="">
+                    <img style="margin-top: 25px;" class="ser_two" src="{% static 'img/ser_two.png' %}" alt="">
                     <div class="card_content">
                         <div>
                             <h3 class="h3">Разработка фин. моделей</h3>
@@ -91,7 +90,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img style="margin-top: 24px;" class="ser_three" src="img/ser_three.png" alt="">
+                    <img style="margin-top: 24px;" class="ser_three" src="{% static 'img/ser_three.png' %}" alt="">
                     <div class="card_content card_content_p2">
                         <div>
                             <h3 class="h3">Консалтинг</h3>
@@ -107,7 +106,7 @@
 
                 </div>
                 <div class="card">
-                    <img style="margin-top: 32px;" class="ser_four" src="img/ser_four.png" alt="">
+                    <img style="margin-top: 32px;" class="ser_four" src="{% static 'img/ser_four.png' %}" alt="">
                     <div class="card_content">
                         <div>
                             <h3 class="h3">Оценка эффективности проектов</h3>
@@ -121,7 +120,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img style="margin-top: 29px;" class="ser_five" src="img/ser_five.png" alt="">
+                    <img style="margin-top: 29px;" class="ser_five" src="{% static 'img/ser_five.png' %}" alt="">
                     <div class="card_content">
                         <div>
                             <h3 class="h3">Получение налоговых льгот, субсидий и грантов</h3>
@@ -243,14 +242,14 @@
             <div class="about_content">
                 <div class="card_two_content">
                     <div class="card_two m_r_16">
-                        <img src="img/card_two_one.svg" alt="">
+                        <img src="{% static 'img/card_two_one.svg ' %}" alt="">
                         <div>
                             <h3 class="h3">11 лет успеха</h3>
                             <p>Мы работаем в сфере бизнес-планирования уже 11 лет, стабильно приносим своим клиентам прибыль, а также страхуем их от потерь</p>
                         </div>
                     </div>
                     <div class="card_two">
-                        <img src="img/card_two_two.svg" alt="">
+                        <img src="{% static 'img/card_two_two.svg ' %}" alt="">
                         <div>
                             <h3 class="h3">Средний стаж специалиста —20 лет</h3>
                             <p>Над вашим проектом будут работать только опытные профессионалы</p>
@@ -260,14 +259,14 @@
                 </div>
                 <div class="card_two_content">
                     <div class="card_two m_r_16">
-                        <img src="img/card_two_three.png" alt="">
+                        <img src="{% static 'img/card_two_three.png' %}" alt="">
                         <div>
                             <h3 class="h3">Сопровождение проектов под ключ</h3>
                             <p>Берём на себя все заботы: от аудита и разработки до непосредственного запуска проекта</p>
                         </div>
                     </div>
                     <div class="card_two">
-                        <img src="img/card_two_four.svg" alt="">
+                        <img src="{% static 'img/card_two_four.svg' %}" alt="">
                         <div>
                             <h3 class="h3">Грамотное использование бюджета, грантов и субсидий</h3>
                             <p style="max-width: 335px;">Мы поможем на 100% эффективно реализовать все доступные ресурсы
@@ -279,7 +278,7 @@
                 <div class="card_two_content">
                     <div class="card_two " style="width: 100%; padding-right: 95px; min-height: 208px;">
                         <div class="d_flex">
-                            <img src="img/card_two_five.svg" alt="">
+                            <img src="{% static 'img/card_two_five.svg' %}" alt="">
                             <div>
                                 <h3 class="h3">Успешный опыт работы в 34 отраслях</h3>
                                 <p>Мы знаем, как полностью раскрыть потенциал любого бизнеса
@@ -299,14 +298,14 @@
             <form class="contact_form" action="">
                 <div class="input_box">
                     <input placeholder="Имя Фамилия" type="text">
-                    <img class="yes input_img" src="img/yes.png" alt="">
-                    <img class="no input_img" src="img/no.png" alt="">
+                    <img class="yes input_img" src="{% static 'img/yes.png' %}" alt="">
+                    <img class="no input_img" src="{% static 'img/no.png' %}" alt="">
                 </div>
 
                 <div class="input_box">
                     <input placeholder="+7 912 345 67 89" type="tel">
-                    <img class="yes2 input_img" src="img/yes.png" alt="">
-                    <img class="no2 input_img" src="img/no.png" alt="">
+                    <img class="yes2 input_img" src="{% static 'img/yes.png' %}" alt="">
+                    <img class="no2 input_img" src="{% static 'img/no.png' %}" alt="">
                 </div>
                 <textarea required placeholder="Комментарий" rows="3" name="text"></textarea>
                 <button class="btn_form">Отправить заявку</button>
@@ -317,7 +316,7 @@
     <footer>
 
         <div class="footer">
-            <img src="img/logo_two.svg" alt="">
+            <img src="{% static 'img/logo_two.svg' %}" alt="">
             <div class="footer_content">
                 <h4 class="h4">г. Уфа, ул. Батырская, 4/2</h4>
                 <h4 class="h4">+7 927 236 56 20</h4>
@@ -330,21 +329,21 @@
 
     <div class="popup-fade">
         <div class="popup">
-            <a class="popup-close" href="#"><img src="img/close.svg" alt=""></a>
+            <a class="popup-close" href="#"><img src="{% static 'img/close.svg' %}" alt=""></a>
             <div class="contact">
                 <h2 class="h2">Свяжитесь с нами уже сейчас!</h2>
                 <h6>Мы ответим на все вопросы и подготовим предложение специально для вас, с учетом специфики вашего бизнеса.</h6>
                 <form class="contact_form" action="">
                     <div class="input_box">
                         <input placeholder="Имя Фамилия" type="text">
-                        <img class="yes input_img" src="img/yes.png" alt="">
-                        <img class="no input_img" src="img/no.png" alt="">
+                        <img class="yes input_img" src="{% static 'img/yes.png' %}" alt="">
+                        <img class="no input_img" src="{% static 'img/no.png' %}" alt="">
                     </div>
 
                     <div class="input_box">
                         <input placeholder="+7 912 345 67 89" type="tel">
-                        <img class="yes2 input_img" src="img/yes.png" alt="">
-                        <img class="no2 input_img" src="img/no.png" alt="">
+                        <img class="yes2 input_img" src="{% static 'img/yes.png' %}" alt="">
+                        <img class="no2 input_img" src="{% static 'img/no.png' %}" alt="">
                     </div>
                     <textarea required placeholder="Комментарий" rows="3" name="text"></textarea>
                     <button class="btn_form popup-open2 popup-open3">Отправить заявку</button>
@@ -355,7 +354,7 @@
 
     <div class="popup-fade3">
         <div class="popup3">
-            <a class="popup-close3" href="#"><img src="img/close.svg" alt=""></a>
+            <a class="popup-close3" href="#"><img src="{% static 'img/close.svg' %}" alt=""></a>
             <div class="case_modal">
                 <div class="top_tabs">
                     <p class="p2">Аналитика</p>
@@ -394,8 +393,8 @@
             </div>
         </div>
     </div> -->
-    <script src="https://yandex.st/jquery/2.1.1/jquery.min.js"></script>
-    <script src="js/modal.js"></script>
+    <script src="{% static 'https://yandex.st/jquery/2.1.1/jquery.min.js' %}"></script>
+    <script src="{% static 'js/modal.js' %}"></script>
 
 </body>
 
