@@ -1,6 +1,26 @@
+from django.http import (
+    HttpResponse,
+    HttpRequest,
+    HttpResponseRedirect,
+    JsonResponse,
+)
+from django.shortcuts import (
+    render,
+    get_object_or_404,
+)
+from django.shortcuts import render,redirect
 
-from django.shortcuts import render
 
-# Create your views here.
-def index (request):
-  return render(request, 'index.html')
+
+
+def index (request: HttpRequest) -> HttpResponse:
+  if request.method == 'POST':
+    if form.is_valid():
+      return HttpResponseRedirect('')
+    else:
+      form = ()
+  context = { }
+  return render(request=request,
+                template_name='index.html'
+                ,context=context)
+  
